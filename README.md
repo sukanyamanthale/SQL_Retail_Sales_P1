@@ -132,7 +132,8 @@ where sale_date = '2022-11-05';
 ```sql
 select category , sum(total_sale) as Total_sales from retail_sales
 group by category
- ```
+```
+ 
 
 
 4. **Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.**:
