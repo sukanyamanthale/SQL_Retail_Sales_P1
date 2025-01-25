@@ -132,7 +132,6 @@ where sale_date = '2022-11-05';
 select category , sum(total_sale) as Total_sales from retail_sales
 group by category ;
 
-
  ```
 
 3. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
@@ -208,6 +207,11 @@ group by Shift;
 ```
 
 3. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
+```sql
+select category , sum(total_sale) as Total_sales from retail_sales
+group by category ;
+
+ ```
 
 
 
