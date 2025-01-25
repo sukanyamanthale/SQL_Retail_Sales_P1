@@ -128,11 +128,14 @@ where sale_date = '2022-11-05';
      and TO_CHAR(sale_date , 'yyyy-mm') = '2022-11';
  ```
 
-3.**Write a SQL query to calculate the total sales (total_sale) for each category.**:
 ```sql
 select category , sum(total_sale) as Total_sales from retail_sales
-group by category;
+group by category ;
+
+
  ```
+
+3. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
 
 
 4. **Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.**:
@@ -204,6 +207,7 @@ from cte
 group by Shift;
 ```
 
+3. **Write a SQL query to calculate the total sales (total_sale) for each category.**:
 
 
 
